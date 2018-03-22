@@ -1,0 +1,564 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <android.support.constraint.ConstraintLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:shrinkColumns="*"
+            android:stretchColumns="*">
+
+            <TableRow
+                android:id="@+id/PHelp_row1"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <android.support.constraint.ConstraintLayout
+                    android:id="@+id/PHelp_Cons1"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:padding="8dp"
+                    app:layout_constraintBottom_toBottomOf="parent">
+
+                    <TextView
+                        android:id="@+id/PHelp_Caption"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="15dp"
+                        android:fontFamily="@font/roboto_mono_medium"
+                        android:gravity="center_horizontal"
+                        android:text="@string/caption_phelp"
+                        android:textAlignment="inherit"
+                        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                        android:textSize="14sp"
+
+                        app:layout_constraintEnd_toEndOf="parent"
+
+                        app:layout_constraintHorizontal_bias="0.0"
+                        app:layout_constraintStart_toStartOf="parent" />
+
+
+
+                </android.support.constraint.ConstraintLayout>
+
+            </TableRow>
+
+
+            <TableRow
+                android:id="@+id/PHelp_row2"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <android.support.constraint.ConstraintLayout
+                    android:id="@+id/PHelp_Cons2"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_margin="15dp"
+                    android:background="@drawable/dash_line"
+                    android:padding="5dp">
+
+                    <TextView
+                        android:id="@+id/PHelp_Title1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="8dp"
+                        android:layout_marginEnd="8dp"
+                        android:layout_marginStart="16dp"
+                        android:layout_marginTop="10dp"
+                        android:fontFamily="@font/roboto_mono_medium"
+                        android:text="@string/title1_phelp"
+                        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                        android:textSize="24sp"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintHorizontal_bias="0.0"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toBottomOf="@+id/PHelp_Cons2" />
+
+                    <TextView
+                        android:id="@+id/PH_Title1_Body1"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:padding="8dp"
+                        android:fontFamily="@font/roboto_mono_medium"
+                        android:gravity="center"
+                        android:text="@string/caption_title1_phelp"
+                        android:textAlignment="inherit"
+                        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                        android:textSize="14sp"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintHorizontal_bias="0.0"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toBottomOf="@+id/PHelp_Title1" />
+
+                </android.support.constraint.ConstraintLayout>
+
+            </TableRow>
+
+
+            <TableRow
+                android:id="@+id/PHelp_row3"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <android.support.constraint.ConstraintLayout
+                    android:id="@+id/PHelp_Cons3"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_margin="15dp"
+                    android:background="@drawable/dash_line"
+                    android:padding="5dp">
+
+                    <TextView
+                        android:id="@+id/PHelp_Title2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="8dp"
+                        android:layout_marginEnd="8dp"
+                        android:layout_marginStart="16dp"
+                        android:layout_marginTop="10dp"
+                        android:fontFamily="@font/roboto_mono_medium"
+                        android:text="@string/title2_phelp"
+                        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                        android:textSize="24sp"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintHorizontal_bias="0.0"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toBottomOf="@+id/PHelp_Cons3" />
+
+                    <TextView
+                        android:id="@+id/PH_Title2_Body1"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:padding="8dp"
+                        android:fontFamily="@font/roboto_mono_medium"
+                        android:gravity="center"
+                        android:text="@string/caption_title2_phelp"
+                        android:textAlignment="inherit"
+                        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                        android:textSize="14sp"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintHorizontal_bias="0.0"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toBottomOf="@+id/PHelp_Title2" />
+
+                </android.support.constraint.ConstraintLayout>
+
+            </TableRow>
+
+
+            <TableRow
+                android:id="@+id/PHelp_row4"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <android.support.constraint.ConstraintLayout
+                    android:id="@+id/PHelp_Cons4"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_margin="15dp"
+                    android:background="@drawable/dash_line"
+                    android:padding="5dp">
+
+                    <TextView
+                        android:id="@+id/PHelp_Title3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="8dp"
+                        android:layout_marginEnd="8dp"
+                        android:layout_marginStart="16dp"
+                        android:layout_marginTop="10dp"
+                        android:fontFamily="@font/roboto_mono_medium"
+                        android:text="@string/title3_phelp"
+                        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                        android:textSize="24sp"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintHorizontal_bias="0.0"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toBottomOf="@+id/PHelp_Cons4" />
+
+                    <TextView
+                        android:id="@+id/PH_Title3_Body1"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:padding="8dp"
+                        android:fontFamily="@font/roboto_mono_medium"
+                        android:gravity="center"
+                        android:text="@string/caption_title3_phelp"
+                        android:textAlignment="inherit"
+                        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                        android:textSize="14sp"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintHorizontal_bias="0.0"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toBottomOf="@+id/PHelp_Title3" />
+
+                </android.support.constraint.ConstraintLayout>
+
+            </TableRow>
+
+            <TableRow
+                android:id="@+id/PHelp_row5"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="10dp"
+                android:layout_marginTop="10dp"
+                android:background="@color/colorPrimaryDark">
+
+                <android.support.constraint.ConstraintLayout
+                    android:id="@+id/PHelp_Cons5"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_margin="15dp"
+                    android:padding="10dp">
+
+                    <TextView
+                        android:id="@+id/PHelp_QA_Body"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/roboto_mono_medium"
+                        android:text="@string/title4_phelp"
+                        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                        android:textColor="@color/white"
+                        android:textSize="20sp"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toBottomOf="@+id/PE_Cons5" />
+
+                </android.support.constraint.ConstraintLayout>
+
+            </TableRow>
+
+
+            <TableRow
+                android:id="@+id/PHelp_row6"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <android.support.constraint.ConstraintLayout
+                    android:id="@+id/PHelp_Cons6"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_margin="15dp"
+                    android:background="@drawable/dash_line"
+                    android:padding="5dp">
+
+                    <TextView
+                        android:id="@+id/PHelp_Title4_Q_Body1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginEnd="8dp"
+                        android:layout_marginStart="16dp"
+                        android:layout_marginTop="10dp"
+                        android:fontFamily="@font/roboto_mono_medium"
+                        android:text="@string/body1_q_phelp"
+                        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                        android:textSize="16sp"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintHorizontal_bias="0.0"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toBottomOf="@+id/PHelp_Cons6" />
+
+                    <TextView
+                        android:id="@+id/PHelp_Title4_A_Body1"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/roboto_mono_medium"
+                        android:gravity="center"
+                        android:padding="8dp"
+                        android:text="@string/body1_a_phelp"
+                        android:textAlignment="inherit"
+                        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                        android:textSize="14sp"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintHorizontal_bias="0.0"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toBottomOf="@+id/PHelp_Title4_Q_Body1" />
+
+                    <TextView
+                        android:id="@+id/PHelp_Title4_divider_Body1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="16dp"
+                        android:fontFamily="@font/roboto_mono_medium"
+                        android:gravity="center_horizontal"
+                        android:padding="8dp"
+                        android:text="@string/title4_divider_phelp"
+                        android:textAlignment="center"
+                        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                        android:textSize="14sp"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toBottomOf="@+id/PHelp_Title4_A_Body1" />
+
+
+                    <TextView
+                        android:id="@+id/PHelp_Title4_Q_Body2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginEnd="8dp"
+                        android:layout_marginStart="16dp"
+                        android:layout_marginTop="10dp"
+                        android:fontFamily="@font/roboto_mono_medium"
+                        android:text="@string/body2_q_phelp"
+                        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                        android:textSize="16sp"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintHorizontal_bias="0.0"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toBottomOf="@+id/PHelp_Title4_divider_Body1" />
+
+                    <TextView
+                        android:id="@+id/PHelp_Title4_A_Body2"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/roboto_mono_medium"
+                        android:gravity="center"
+                        android:padding="8dp"
+                        android:text="@string/body2_a_phelp"
+                        android:textAlignment="inherit"
+                        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                        android:textSize="14sp"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintHorizontal_bias="0.0"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toBottomOf="@+id/PHelp_Title4_Q_Body2" />
+
+
+                    <TextView
+                        android:id="@+id/PHelp_Title4_divider_Body2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="16dp"
+                        android:fontFamily="@font/roboto_mono_medium"
+                        android:gravity="center_horizontal"
+                        android:padding="8dp"
+                        android:text="@string/title4_divider_phelp"
+                        android:textAlignment="center"
+                        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                        android:textSize="14sp"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toBottomOf="@+id/PHelp_Title4_A_Body2" />
+
+
+                    <TextView
+                        android:id="@+id/PHelp_Title4_Q_Body3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginEnd="8dp"
+                        android:layout_marginStart="16dp"
+                        android:layout_marginTop="10dp"
+                        android:fontFamily="@font/roboto_mono_medium"
+                        android:text="@string/body3_q_phelp"
+                        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                        android:textSize="16sp"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintHorizontal_bias="0.0"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toBottomOf="@+id/PHelp_Title4_divider_Body2" />
+
+                    <TextView
+                        android:id="@+id/PHelp_Title4_A_Body3"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/roboto_mono_medium"
+                        android:gravity="center"
+                        android:padding="8dp"
+                        android:text="@string/body3_a_phelp"
+                        android:textAlignment="inherit"
+                        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                        android:textSize="14sp"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintHorizontal_bias="0.0"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toBottomOf="@+id/PHelp_Title4_Q_Body3" />
+
+
+                    <TextView
+                        android:id="@+id/PHelp_Title4_divider_Body3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="16dp"
+                        android:fontFamily="@font/roboto_mono_medium"
+                        android:gravity="center_horizontal"
+                        android:padding="8dp"
+                        android:text="@string/title4_divider_phelp"
+                        android:textAlignment="center"
+                        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                        android:textSize="14sp"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toBottomOf="@+id/PHelp_Title4_A_Body3" />
+
+
+                    <TextView
+                        android:id="@+id/PHelp_Title4_Q_Body4"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginEnd="8dp"
+                        android:layout_marginStart="16dp"
+                        android:layout_marginTop="10dp"
+                        android:fontFamily="@font/roboto_mono_medium"
+                        android:text="@string/body4_q_phelp"
+                        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                        android:textSize="16sp"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintHorizontal_bias="0.0"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toBottomOf="@+id/PHelp_Title4_divider_Body3" />
+
+                    <TextView
+                        android:id="@+id/PHelp_Title4_A_Body4"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/roboto_mono_medium"
+                        android:gravity="center"
+                        android:padding="8dp"
+                        android:text="@string/body4_a_phelp"
+                        android:textAlignment="inherit"
+                        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                        android:textSize="14sp"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintHorizontal_bias="0.0"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toBottomOf="@+id/PHelp_Title4_Q_Body4" />
+
+
+                    <TextView
+                        android:id="@+id/PHelp_Title4_divider_Body4"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="16dp"
+                        android:fontFamily="@font/roboto_mono_medium"
+                        android:gravity="center_horizontal"
+                        android:padding="8dp"
+                        android:text="@string/title4_divider_phelp"
+                        android:textAlignment="center"
+                        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                        android:textSize="14sp"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toBottomOf="@+id/PHelp_Title4_A_Body4" />
+
+
+                    <TextView
+                        android:id="@+id/PHelp_Title4_Q_Body5"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginEnd="8dp"
+                        android:layout_marginStart="16dp"
+                        android:layout_marginTop="10dp"
+                        android:fontFamily="@font/roboto_mono_medium"
+                        android:text="@string/body5_q_phelp"
+                        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                        android:textSize="16sp"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintHorizontal_bias="0.0"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toBottomOf="@+id/PHelp_Title4_divider_Body4" />
+
+                    <TextView
+                        android:id="@+id/PHelp_Title4_A_Body5"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/roboto_mono_medium"
+                        android:gravity="center"
+                        android:padding="8dp"
+                        android:text="@string/body5_a_phelp"
+                        android:textAlignment="inherit"
+                        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                        android:textSize="14sp"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintHorizontal_bias="0.0"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toBottomOf="@+id/PHelp_Title4_Q_Body5" />
+
+
+                    <TextView
+                        android:id="@+id/PHelp_Title4_divider_Body5"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="16dp"
+                        android:fontFamily="@font/roboto_mono_medium"
+                        android:gravity="center_horizontal"
+                        android:padding="8dp"
+                        android:text="@string/title4_divider_phelp"
+                        android:textAlignment="center"
+                        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                        android:textSize="14sp"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toBottomOf="@+id/PHelp_Title4_A_Body5" />
+
+
+                    <TextView
+                        android:id="@+id/PHelp_Title4_Q_Body6"
+                        android:layout_width="wrap_content"
+                        android:layout_height="46dp"
+                        android:layout_marginBottom="16dp"
+                        android:layout_marginEnd="8dp"
+                        android:layout_marginStart="16dp"
+                        android:layout_marginTop="10dp"
+                        android:fontFamily="@font/roboto_mono_medium"
+                        android:text="@string/body6_q_phelp"
+                        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                        android:textSize="16sp"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintHorizontal_bias="0.0"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toBottomOf="@+id/PHelp_Title4_divider_Body5" />
+
+
+                    <TextView
+                        android:id="@+id/PHelp_Title4_A_Body6"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/roboto_mono_medium"
+                        android:gravity="center"
+                        android:padding="8dp"
+                        android:text="@string/body6_a_phelp"
+                        android:textAlignment="inherit"
+                        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                        android:textSize="14sp"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintHorizontal_bias="0.0"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toBottomOf="@+id/PHelp_Title4_Q_Body6" />
+
+                    <TextView
+                        android:id="@+id/PHelp_Title4_divider_Body6"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="16dp"
+                        android:fontFamily="@font/roboto_mono_medium"
+                        android:gravity="center_horizontal"
+                        android:padding="8dp"
+                        android:text=""
+                        android:textAlignment="center"
+                        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                        android:textSize="14sp"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toBottomOf="@+id/PHelp_Title4_A_Body6" />
+
+
+                </android.support.constraint.ConstraintLayout>
+
+            </TableRow>
+
+        </TableLayout>
+
+    </android.support.constraint.ConstraintLayout>
+
+</ScrollView>

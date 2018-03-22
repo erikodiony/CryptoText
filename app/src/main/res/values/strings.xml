@@ -1,0 +1,135 @@
+<resources>
+    <string name="app_name">Crypto Text</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="tbox_null">This item can\'t be empty !</string>
+    <string name="key_Priv_OutOfRange">Range value of PrivateKey must be &gt; 1 or &gt;= PublicKey - 2</string>
+    <string name="key_Pub_OutOfRange">Range value of PublicKey must be &gt; 255</string>
+    <string name="key_Pub_NotPrime">Value of PublicKey must be Prime Number</string>
+
+    <string name="toast_key_err">Can\'t process, Some Input not valid !</string>
+    <string name="toast_key_ok">Process started . . .</string>
+    <string name="toast_key_ok2">Key file was loaded successfully . . .</string>
+    <string name="toast_key_err2">Can\'t export key, Try again . . .</string>
+    <string name="toast_key_err3">Can\'t process, Key not valid !</string>
+    <string name="toast_permission_storage">Please allow this permission to continue . . .</string>
+    <string name="toast_editText_wasEmpty">Can\'t saving, EditText field is empty . . .</string>
+    <string name="toast_exec_err">Can\'t process, Some Input is empty !</string>
+    <string name="toast_encrypt_ok">Encrypt Text was successfully !</string>
+    <string name="toast_decrypt_ok">Decrypt Text was successfully !</string>
+    <string name="toast_copy_encrypt_ok">Encrypted Text was copied to Clipboard . . .</string>
+    <string name="toast_copy_decrypt_ok">Decrypted Text was copied to Clipboard . . .</string>
+    <string name="toast_copy_encrypt_err">Encrypted Text is empty ! Can\'t copying text . . .</string>
+    <string name="toast_copy_decrypt_err">Decrypted Text is empty ! Can\'t copying text . . .</string>
+    <string name="toast_saveAs_encrypt_err">Encrypted Text is empty ! Can\'t creating file . . .</string>
+    <string name="toast_saveAs_decrypt_err">Decrypted Text is empty ! Can\'t creating file . . .</string>
+    <string name="toast_clearAllData">Resetting form field was successfully . . .</string>
+    <string name="toast_inputEncrypt_err">Input Encrypted Text is invalid !\nTry check again . . .</string>
+
+    <string name="hint_insertPlainText">Insert Plain Text here . . .</string>
+    <string name="hint_insertEncryptText">Insert Encrypt Text here . . .</string>
+    <string name="hint_encryptText">Encrypted Text will shown here . . .</string>
+    <string name="hint_decryptText">Decrypted Text will shown here . . .</string>
+
+    <!-- Page Home Property -->
+    <string name="caption_ph">Crypto Text merupakan aplikasi yang berfungsi untuk menyamarkan teks normal menjadi teks yang sulit dipahami, sulit diterjemahkan, dan sulit diinterprestasikan. Adapun penyamaran teks (enkripsi &amp; dekripsi) dilakukan dengan menggunakan kombinasi algoritma kriptografi klasik (ROT 13) dan kriptografi modern berbasis kunci publik (El Gamal). Pemanfaatan aplikasi ini dapat dikombinasikan dengan aplikasi chat berbasis teks, aplikasi teks sms maupun teks-teks lainnya yang ingin disamarkan. Sehingga dengan memanfaatkan aplikasi ini, nantinya teks dapat dijamin keamanannya dibandingkan dengan teks yang tanpa dilakukan pengamanan sebelumnya.</string>
+    <string name="title1_ph">Feature &amp; Benefit</string>
+    <string name="body1_ph">Fast Encrypting</string>
+    <string name="body2_ph">Fast Decrypting</string>
+    <string name="body3_ph">Secure using Public-Private Key</string>
+    <string name="body4_ph">Build with Java Programming Language</string>
+    <string name="body5_ph">Support minimum Android Lolipop 5.0 (SDK API 21)</string>
+
+    <!-- Page Help Property -->
+    <string name="caption_phelp">Menu ini berfungsi sebagai petunjuk cara penggunaan aplikasi \"Crypto Text\" serta pada submenu Q&amp;A untuk memberikan pemahaman dan penjelasan kepada pengguna secara lebih lanjut.</string>
+    <string name="title1_phelp">Pembuatan Kunci</string>
+    <string name="caption_title1_phelp">Sebelum melakukan proses enkripsi dan dekripsi, Ada baiknya penguna diwajibkan untuk membuat kunci terlebih dahulu. Nantinya kunci ini akan berguna sebagai pemroses proses enkripsi dan dekripsi teks yang sesuai dengan algoritma yang digunakkan yakni ROT13 dan ElGamal. Pengguna bisa mengatur pengaturan kunci serta menyimpan kunci ke dalam sebuah file (*.crtx) pada menu \"Create Key\".</string>
+    <string name="title2_phelp">Proses Enkripsi</string>
+    <string name="caption_title2_phelp">Pada proses ini pengguna dapat memasukkan data PlainText ke dalam submenu \"Insert Text (Plain Text)\". Kemudian pada submenu \"Insert Key\", dibutuhkan sebuah kunci yang telah dibuat pada saat proses pembuatan kunci. Setelah semua form field telah terisi, maka pengguna dapat melakukan proses enkripsi dengan cara tap tombol Execute. Hasil dari proses enkripsi akan ditampilkan pada submenu Output, pengguna dapat mengkopi maupun menyimpan hasil enkripsi ke dalam sebuah file (*.encx). Adapun semua proses ini dilakukan pada Menu \"Encrypt\".</string>
+    <string name="title3_phelp">Proses Dekripsi</string>
+    <string name="caption_title3_phelp">Pada proses ini pengguna dapat memasukkan data EncryptText ke dalam submenu \"Insert Text (Encrypt Text)\". Kemudian pada submenu \"Insert Key\", dibutuhkan sebuah kunci yang telah dibuat pada saat proses pembuatan kunci. Setelah semua form field telah terisi, maka pengguna dapat melakukan proses dekripsi dengan cara tap tombol Execute. Hasil dari proses dekripsi akan ditampilkan pada submenu Output, pengguna dapat mengkopi maupun menyimpan hasil dekripsi ke dalam sebuah file (*.txt). Adapun semua proses ini dilakukan pada Menu \"Decrypt\".</string>
+
+    <string name="title4_phelp">Question &amp; Answer</string>
+    <string name="body1_q_phelp">Apa itu Enkripsi ?</string>
+    <string name="body2_q_phelp">Apa itu Dekripsi ?</string>
+    <string name="body3_q_phelp">Apa itu Algoritma ROT13 ?</string>
+    <string name="body4_q_phelp">Apa itu Algoritma ElGamal ?</string>
+    <string name="body5_q_phelp">Jenis teks apa saja yang dapat di enkripsi ?</string>
+    <string name="body6_q_phelp">Apa yang terjadi jika pengguna kehilangan key ?</string>
+    <string name="title4_divider_phelp">-------------</string>
+    <string name="body1_a_phelp">Enkripsi merupakan sebuah metode untuk menyamarkan pesan teks menjadi tersamarkan dan sulit untuk dipahami, dalam hal ini teks masih dapat terlihat namun akan sulit untuk dipahami maupun dipersepsi oleh pengguna.</string>
+    <string name="body2_a_phelp">Dekripsi merupakan sebuah metode untuk membaca pesan teks yang sebelumnya telah terenkripsi menjadi teks normal yang dapat dibaca, dipahami maupun dipersepsi oleh pengguna.</string>
+    <string name="body3_a_phelp">Algoritma ROT13 adalah suatu metode enkripsi yang berusaha untuk mengganti nilai-nilai huruf/angka/simbol dengan cara mengeser karakter sejumlah 13 karakter. Sebagai contoh (Huruf \"A\" di enkripsi akan menjadi Huruf \"N\") dan sebagainya.</string>
+    <string name="body4_a_phelp">Algoritma Elgamal adalah suatu metode enkripsi yang menggunakan dua buah kunci, yakni kunci publik dan kunci privat. Kunci publik akan digunakan untuk mengenkripsi pesan/teks, sedangkan kunci publik dan kunci privat akan digunakan bersama ketika proses dekripsi. Jenis Algoritma ini menekankan pada kesukaran mencari bilangan eksponen/pangkat yang sesuai.</string>
+    <string name="body5_a_phelp">Semua jenis teks telah didukung, Terutama pesan teks yang menggunakan jenis pengkodean UTF-8.</string>
+    <string name="body6_a_phelp">Pesan teks dapat diungkap kembali apabila pengguna memilih jenis publik key dan private key menggunakan modus manual dengan memasukkan angka-angka tertentu yang sama dan sesuai dengan key lama ketika proses pembuatan key baru. Sedangkan apabila menggunakan modus auto maka dapat dipastikan data yang di enkripsi tidak dapat diungkap kembali. Ada baiknya untuk mencadangkannya maupun menyimpan key pada tempat yang aman serta rahasia.</string>
+
+    <!-- Page Info Property -->
+    <string name="caption_pi">Menu ini berisi tentang detail informasi mengenai aplikasi.</string>
+    <string name="title1_pi">Crypto Text</string>
+    <string name="body1_pi">Version 1.1 (Build 201803)</string>
+    <string name="body2_pi">Aplikasi dibuat sebagai hasil implementasi dari karya tulis ilmiah/skripsi yang berjudul \"Implementasi Algoritma ROT13 dan ElGamal untuk enkripsi dan dekripsi pesan rahasia\" oleh M. Zainudin Zuhri</string>
+
+    <!-- Page Encrypt Property -->
+    <string name="caption_pe">Menu ini berfungsi untuk menyamarkan teks yang sebelumnya masih berupa teks normal. Pengguna dapat menginputkan teks secara manual atau melalui file teks berekstensi *.txt.</string>
+
+    <string name="title1_pe">Insert Text (Plain Text)</string>
+    <string name="title1_btn1_pe">Choose Plain Text (*.txt)</string>
+    <string name="title1_btn2_pe">Save</string>
+    <string name="title1_btn3_pe">Clear</string>
+    <string name="title1_divider_pe">----- OR -----</string>
+    <string name="title1_path_pe">Path : -</string>
+
+    <string name="title2_pe">Insert Key</string>
+    <string name="caption2_pe">Belum mempunyai key ?\nDapat membuatnya pada menu Create Key</string>
+    <string name="title2_btn1_pe">Choose Key (*.crtx)</string>
+    <string name="title2_path_pe">Path : -</string>
+
+    <string name="caption3_pe">Tap Button to Process</string>
+    <string name="title3_btn1_pe">Execute</string>
+
+    <string name="title4_pe">Output</string>
+    <string name="title4_btn1_pe">Copy All</string>
+    <string name="title4_btn2_pe">Save as Encrypt Text File (*.encx)</string>
+
+    <!-- Page Decrypt Property -->
+    <string name="caption_pd">Menu ini berfungsi untuk menormalisasi teks yang sebelumnya masih berupa teks tersamar. Pengguna dapat menginputkan teks secara manual atau melalui file teks berekstensi *.encx.</string>
+
+    <string name="title1_pd">Insert Text (Encrypt Text)</string>
+    <string name="title1_btn1_pd">Choose Encrypt Text (*.encx)</string>
+    <string name="title1_btn2_pd">Save</string>
+    <string name="title1_divider_pd">----- OR -----</string>
+    <string name="title1_path_pd">Path : -</string>
+
+    <string name="title2_pd">Insert Key</string>
+    <string name="caption2_pd">Untuk keberhasilan proses dekripsi\nPastikan menggunakan key yang sama dengan key yang digunakan ketika proses enkripsi teks</string>
+    <string name="title2_btn1_pd">Choose Key (*.crtx)</string>
+    <string name="title2_path_pd">Path : -</string>
+
+    <string name="caption3_pd">Tap Button to Process</string>
+    <string name="title3_btn1_pd">Execute</string>
+
+    <string name="title4_pd">Output</string>
+    <string name="title4_btn1_pd">Copy All</string>
+    <string name="title4_btn2_pd">Save as Plain Text File (*.txt)</string>
+
+
+    <!-- Page Key Property -->
+    <string name="caption_pk">Menu ini berfungsi untuk pembuatan key yang akan digunakan dalam proses enkripsi maupun proses dekripsi teks/pesan.</string>
+
+    <string name="title1_pk">ROT 13 (Setting)</string>
+    <string name="title1_caption1_pk">Enable</string>
+    <string name="title1_caption2_pk">Reverse Mechanism (N - 13)</string>
+
+    <string name="title2_pk">El Gamal (Setting)</string>
+    <string name="title2_caption1_pk">Enable</string>
+    <string name="title2_caption2_pk">Auto Private Key</string>
+    <string name="title2_caption2_edit_pk">Manual Private Key</string>
+    <string name="title2_caption3_pk">Auto Public Key</string>
+    <string name="title2_caption3_edit_pk">Manual Public Key</string>
+
+    <string name="title3_pk">Tap Button to Generate Key</string>
+    <string name="title3_btn1_pk">Execute</string>
+
+</resources>

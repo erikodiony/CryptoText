@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+        <item
+            android:id="@+id/nav_home"
+            android:checkable="true"
+            android:icon="@drawable/ic_home"
+            android:title="Home" />
+
+    <item android:title="Main">
+        <menu>
+            <item
+                android:id="@+id/nav_encrypt"
+                android:checkable="true"
+                android:icon="@drawable/ic_speaker_notes_off"
+                android:title="Encrypt" />
+            <item
+                android:id="@+id/nav_decrypt"
+                android:checkable="true"
+                android:icon="@drawable/ic_speaker_notes"
+                android:title="Decrypt" />
+        </menu>
+    </item>
+
+    <item android:title="Extras">
+        <menu>
+            <item
+                android:id="@+id/nav_key"
+                android:checkable="true"
+                android:icon="@drawable/ic_key"
+                android:title="Create Key" />
+            <item
+                android:id="@+id/nav_help"
+                android:checkable="true"
+                android:icon="@drawable/ic_help"
+                android:title="Help" />
+            <item
+                android:id="@+id/nav_about"
+                android:checkable="true"
+                android:icon="@drawable/ic_info"
+                android:title="About" />
+        </menu>
+    </item>
+
+</menu>

@@ -1,0 +1,413 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <android.support.constraint.ConstraintLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:shrinkColumns="*"
+            android:stretchColumns="*">
+
+            <TableRow
+                android:id="@+id/PK_row1"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <android.support.constraint.ConstraintLayout
+                    android:id="@+id/PK_Cons1"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:padding="8dp"
+                    app:layout_constraintBottom_toBottomOf="parent">
+
+                    <TextView
+                        android:id="@+id/PK_Caption"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="15dp"
+                        android:fontFamily="@font/roboto_mono_medium"
+                        android:gravity="center_horizontal"
+                        android:text="@string/caption_pk"
+                        android:textAlignment="inherit"
+                        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+
+                        android:textSize="14sp"
+
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintHorizontal_bias="0.0"
+                        app:layout_constraintStart_toStartOf="parent" />
+
+                </android.support.constraint.ConstraintLayout>
+
+            </TableRow>
+
+            <TableRow
+                android:id="@+id/PK_row2"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <android.support.constraint.ConstraintLayout
+                    android:id="@+id/PK_Cons2"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_margin="15dp"
+                    android:background="@drawable/dash_line"
+                    android:padding="10dp"
+                    app:layout_constraintTop_toTopOf="@+id/PK_Cons1">
+
+                    <TextView
+                        android:id="@+id/PK_Title1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/roboto_mono_medium"
+                        android:paddingBottom="10dp"
+                        android:text="@string/title1_pk"
+                        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                        android:textSize="22sp"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintHorizontal_bias="0.0"
+                        app:layout_constraintStart_toStartOf="parent" />
+
+                    <RelativeLayout
+                        android:id="@+id/PK_Title1_RL1"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:padding="5dp"
+                        app:layout_constraintTop_toBottomOf="@id/PK_Title1">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentLeft="true"
+                            android:layout_centerVertical="true"
+                            android:fontFamily="@font/roboto_mono_medium"
+                            android:text="@string/title1_caption1_pk"
+                            android:textAlignment="viewStart"
+                            android:textAllCaps="false"
+                            android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                            android:textSize="14dp"
+                            app:layout_constraintEnd_toEndOf="parent"
+                            app:layout_constraintHorizontal_bias="0.0"
+                            app:layout_constraintStart_toStartOf="parent" />
+
+                        <Switch
+                            android:id="@+id/switch1_ROT13"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentRight="true"
+                            android:layout_centerVertical="true"
+                            android:checked="true"
+                            android:fontFamily="@font/roboto_mono_medium"
+                            android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                            android:textSize="14dp"
+                            app:layout_constraintEnd_toEndOf="parent"
+                            app:layout_constraintHorizontal_bias="0.0"
+                            app:layout_constraintStart_toStartOf="parent" />
+
+                    </RelativeLayout>
+
+                    <RelativeLayout
+                        android:id="@+id/PK_Title1_RL2"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:padding="5dp"
+                        app:layout_constraintTop_toBottomOf="@id/PK_Title1_RL1">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentLeft="true"
+                            android:layout_centerVertical="true"
+                            android:fontFamily="@font/roboto_mono_medium"
+                            android:text="@string/title1_caption2_pk"
+                            android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                            android:textSize="14dp"
+                            app:layout_constraintEnd_toEndOf="parent"
+                            app:layout_constraintHorizontal_bias="0.0"
+                            app:layout_constraintStart_toStartOf="parent" />
+
+                        <Switch
+                            android:id="@+id/switch2_ROT13"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentRight="true"
+                            android:layout_centerVertical="true"
+                            android:checked="false"
+                            android:fontFamily="@font/roboto_mono_medium"
+                            android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                            android:textSize="14dp"
+                            app:layout_constraintEnd_toEndOf="parent"
+                            app:layout_constraintHorizontal_bias="0.0"
+                            app:layout_constraintStart_toStartOf="parent" />
+
+                    </RelativeLayout>
+
+                </android.support.constraint.ConstraintLayout>
+
+            </TableRow>
+
+            <TableRow
+                android:id="@+id/PK_row3"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <android.support.constraint.ConstraintLayout
+                    android:id="@+id/PK_Cons3"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_margin="15dp"
+                    android:background="@drawable/dash_line"
+                    android:padding="10dp">
+
+                    <TextView
+                        android:id="@+id/PK_Title2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/roboto_mono_medium"
+                        android:paddingBottom="10dp"
+                        android:text="@string/title2_pk"
+                        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                        android:textSize="22sp"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintHorizontal_bias="0.0"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toBottomOf="@+id/PK_Cons3" />
+
+                    <RelativeLayout
+                        android:id="@+id/PK_Title2_RL1"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:padding="5dp"
+                        app:layout_constraintTop_toBottomOf="@id/PK_Title2">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentLeft="true"
+                            android:layout_centerVertical="true"
+                            android:fontFamily="@font/roboto_mono_medium"
+                            android:text="@string/title2_caption1_pk"
+                            android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                            android:textSize="14dp"
+                            app:layout_constraintEnd_toEndOf="parent"
+                            app:layout_constraintHorizontal_bias="0.0"
+                            app:layout_constraintStart_toStartOf="parent" />
+
+                        <Switch
+                            android:id="@+id/switch1_ELGAMAL"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentRight="true"
+                            android:layout_centerVertical="true"
+                            android:checked="true"
+                            android:fontFamily="@font/roboto_mono_medium"
+                            android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                            android:textSize="14dp"
+                            app:layout_constraintEnd_toEndOf="parent"
+                            app:layout_constraintHorizontal_bias="0.0"
+                            app:layout_constraintStart_toStartOf="parent" />
+
+                    </RelativeLayout>
+
+                    <RelativeLayout
+                        android:id="@+id/PK_Title2_RL2"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:padding="5dp"
+                        app:layout_constraintTop_toBottomOf="@id/PK_Title2_RL1">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentLeft="true"
+                            android:layout_centerVertical="true"
+                            android:fontFamily="@font/roboto_mono_medium"
+                            android:text="@string/title2_caption2_pk"
+                            android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                            android:textSize="14dp"
+                            app:layout_constraintEnd_toEndOf="parent"
+                            app:layout_constraintHorizontal_bias="0.0"
+                            app:layout_constraintStart_toStartOf="parent" />
+
+                        <Switch
+                            android:id="@+id/switch2_ELGAMAL"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentRight="true"
+                            android:layout_centerVertical="true"
+                            android:checked="true"
+                            android:fontFamily="@font/roboto_mono_medium"
+                            android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                            android:textSize="14dp"
+                            app:layout_constraintEnd_toEndOf="parent"
+                            app:layout_constraintHorizontal_bias="0.0"
+                            app:layout_constraintStart_toStartOf="parent" />
+
+                    </RelativeLayout>
+
+
+                    <RelativeLayout
+                        android:id="@+id/PK_Title2_RL2_Child"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:padding="15dp"
+                        android:visibility="gone"
+                        app:layout_constraintTop_toBottomOf="@id/PK_Title2_RL2">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentLeft="true"
+                            android:layout_centerVertical="true"
+                            android:fontFamily="@font/roboto_mono_medium"
+                            android:text="@string/title2_caption2_edit_pk"
+                            android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                            android:textSize="12dp"
+                            app:layout_constraintEnd_toEndOf="parent"
+                            app:layout_constraintHorizontal_bias="0.0"
+                            app:layout_constraintStart_toStartOf="parent" />
+
+                        <EditText
+                            android:id="@+id/editText_PrivateKey_PK"
+                            android:layout_width="100dp"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentRight="true"
+                            android:background="@color/colorPrimary"
+                            android:inputType="number"
+                            android:textColor="@color/white"
+                            android:textSize="12dp" />
+
+                    </RelativeLayout>
+
+
+                    <RelativeLayout
+                        android:id="@+id/PK_Title2_RL3"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:padding="5dp"
+                        app:layout_constraintTop_toBottomOf="@id/PK_Title2_RL2_Child">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentLeft="true"
+                            android:layout_centerVertical="true"
+                            android:fontFamily="@font/roboto_mono_medium"
+                            android:text="@string/title2_caption3_pk"
+                            android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                            android:textSize="14dp"
+                            app:layout_constraintEnd_toEndOf="parent"
+                            app:layout_constraintHorizontal_bias="0.0"
+                            app:layout_constraintStart_toStartOf="parent" />
+
+                        <Switch
+                            android:id="@+id/switch3_ELGAMAL"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentRight="true"
+                            android:layout_centerVertical="true"
+                            android:checked="true"
+                            android:fontFamily="@font/roboto_mono_medium"
+                            android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                            android:textSize="14dp"
+                            app:layout_constraintEnd_toEndOf="parent"
+                            app:layout_constraintHorizontal_bias="0.0"
+                            app:layout_constraintStart_toStartOf="parent" />
+
+                    </RelativeLayout>
+
+                    <RelativeLayout
+                        android:id="@+id/PK_Title2_RL3_Child"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:padding="15dp"
+                        android:visibility="gone"
+                        app:layout_constraintTop_toBottomOf="@id/PK_Title2_RL3">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentLeft="true"
+                            android:layout_centerVertical="true"
+                            android:fontFamily="@font/roboto_mono_medium"
+                            android:text="@string/title2_caption3_edit_pk"
+                            android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                            android:textSize="12dp"
+                            app:layout_constraintEnd_toEndOf="parent"
+                            app:layout_constraintHorizontal_bias="0.0"
+                            app:layout_constraintStart_toStartOf="parent" />
+
+                        <EditText
+                            android:id="@+id/editText_PublicKey_PK"
+                            android:layout_width="100dp"
+                            android:layout_height="wrap_content"
+                            android:background="@color/colorPrimary"
+                            android:textColor="@color/white"
+                            android:layout_alignParentRight="true"
+                            android:inputType="number"
+                            android:textSize="12dp" />
+
+                    </RelativeLayout>
+
+
+                </android.support.constraint.ConstraintLayout>
+
+            </TableRow>
+
+            <TableRow
+                android:id="@+id/PK_row4"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="10dp"
+                android:background="@color/colorPrimaryDark">
+
+                <android.support.constraint.ConstraintLayout
+                    android:id="@+id/PK_Cons4"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_margin="15dp"
+                    android:padding="10dp">
+
+                    <TextView
+                        android:id="@+id/PK_Title3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/roboto_mono_medium"
+                        android:text="@string/title3_pk"
+                        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                        android:textColor="@color/white"
+                        android:textSize="15sp"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toBottomOf="@+id/PK_Cons4" />
+
+                    <Button
+                        android:id="@+id/title4_btn1_PK"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="8dp"
+                        android:text="@string/title3_btn1_pk"
+                        android:textAllCaps="false"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toBottomOf="@+id/PK_Title3" />
+
+                </android.support.constraint.ConstraintLayout>
+
+            </TableRow>
+
+        </TableLayout>
+
+    </android.support.constraint.ConstraintLayout>
+
+</ScrollView>
