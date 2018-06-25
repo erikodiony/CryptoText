@@ -69,7 +69,12 @@
     <string name="caption_pi">Menu ini berisi tentang detail informasi mengenai aplikasi.</string>
     <string name="title1_pi">Crypto Text</string>
     <string name="body1_pi">Version 1.1 (Build 201803)</string>
-    <string name="body2_pi">Aplikasi dibuat sebagai hasil implementasi dari karya tulis ilmiah/skripsi yang berjudul \"Implementasi Algoritma ROT13 dan ElGamal untuk enkripsi dan dekripsi pesan rahasia\" oleh M. Zainudin Zuhri</string>
+    <string name="body2_pi">Created By :</string>
+    <string name="body3_pi">Erikodiony Ariessa Wahyudi</string>
+    <string name="body4_pi">Source Code :</string>
+    <string name="body5_pi"><a href="https://github.com/erikodiony/CryptoText">https://github.com/erikodiony/CryptoText</a></string>
+    <!--<string name="body2_pi">Aplikasi dibuat sebagai hasil implementasi dari karya tulis ilmiah/skripsi yang berjudul \"Implementasi Algoritma ROT13 dan ElGamal untuk enkripsi dan dekripsi pesan rahasia\" oleh M. Zainudin Zuhri</string>-->
+
 
     <!-- Page Encrypt Property -->
     <string name="caption_pe">Menu ini berfungsi untuk menyamarkan teks yang sebelumnya masih berupa teks normal. Pengguna dapat menginputkan teks secara manual atau melalui file teks berekstensi *.txt.</string>
