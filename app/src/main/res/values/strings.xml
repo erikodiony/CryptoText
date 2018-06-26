@@ -33,7 +33,7 @@
     <string name="hint_decryptText">Decrypted Text will shown here . . .</string>
 
     <!-- Page Home Property -->
-    <string name="caption_ph">Crypto Text merupakan aplikasi yang berfungsi untuk menyamarkan teks normal menjadi teks yang sulit dipahami, sulit diterjemahkan, dan sulit diinterprestasikan. Adapun penyamaran teks (enkripsi &amp; dekripsi) dilakukan dengan menggunakan kombinasi algoritma kriptografi klasik (ROT 13) dan kriptografi modern berbasis kunci publik (El Gamal). Pemanfaatan aplikasi ini dapat dikombinasikan dengan aplikasi chat berbasis teks, aplikasi teks sms maupun teks-teks lainnya yang ingin disamarkan. Sehingga dengan memanfaatkan aplikasi ini, nantinya teks dapat dijamin keamanannya dibandingkan dengan teks yang tanpa dilakukan pengamanan sebelumnya.</string>
+    <string name="caption_ph">Crypto Text merupakan aplikasi yang berfungsi untuk menyamarkan teks normal menjadi teks yang sulit dipahami, sulit diterjemahkan, dan sulit diinterpretasikan. Adapun penyamaran teks (enkripsi &amp; dekripsi) dilakukan dengan menggunakan kombinasi algoritma kriptografi klasik (ROT 13) dan kriptografi modern berbasis kunci publik (El Gamal). Pemanfaatan aplikasi ini dapat dikombinasikan dengan aplikasi chat berbasis teks, aplikasi teks sms maupun teks-teks lainnya yang ingin disamarkan. Sehingga dengan memanfaatkan aplikasi ini, nantinya teks dapat dijamin keamanannya dibandingkan dengan teks yang tanpa dilakukan pengamanan sebelumnya.</string>
     <string name="title1_ph">Feature &amp; Benefit</string>
     <string name="body1_ph">Fast Encrypting</string>
     <string name="body2_ph">Fast Decrypting</string>
